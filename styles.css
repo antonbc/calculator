@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: #000;
+}
+.btn-container{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px 90px;
+    grid-gap: 5px;
+}
+.display{
+    font-size: 15px;
+    height: 120px;
+    width: 375px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 1rem;
+}
+#zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.btn{
+    border: none;
+    border-radius: 1rem;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: rgb(246, 246, 250);
+    cursor: pointer;
+}
